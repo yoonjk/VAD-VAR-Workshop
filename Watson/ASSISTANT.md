@@ -98,3 +98,42 @@ A toast notification should now display confirming your upload. Finally, close t
 Your assistant is now a copy of the Lendyr.com assistant!
 
 
+## Developer's perspective
+
+Developers can work in the Actions page too, but they often focus on more technical features. From the **Home** page, open the left menu and click **Integrations** on the bottom-left.
+
+Watson Assistant Integrations add various channels, extensions, and third-party integrations to easily configure and deploy your assistant. Spend a few minutes exploring the Integrations page.
+
+Earlier, we noted that developers spend more time on technical features than on the Actions page, where builders create new conversational flows. Why is that? Since Watson Assistant is purposefully designed to make it easy for non-technical builders to author conversational flows, developers can focus in on the parts of a virtual assistant that require their technical expertise, like integrations with other applications.
+
+## Product manager's perspective
+
+Finally, let's explore the perspective of a product manager.
+
+Product managers can work in the Actions and Integrations pages, but they typically focus on overall success, continuous improvement, and expansion. Using the left menu explore the **Publish**, **Environments**, and **Analyze** pages.
+
+# 102: Actions and basic Identity Access Management
+
+## Collaborating on an assistant
+
+In order to add a user to collaborate on this assistant:
+
+1. Click the **Profile** icon present in the top-right navigation bar.
+2. From the menu selected the **Add users** options.
+3. A modal will appear that you can enter valid email addresses to.
+4. Once done entering email addresses click **Submit**.
+5. A confirmation popup will appear showing that an invite has been sent. 
+
+## Building your first action
+
+Let's get started creating a new action. In order to do so start by clicking the **Actions** option available in the left-hand navigation bar to get to the Actions page. Once there you should see a long list of current actions already there if you imported the JSON file from earlier into your assistant.
+
+Clicking the **Search icon** you shuold be able to use a text input to query the list. Start by typing `Open an account` into the search field to find the corresponding action.
+
+Now, imagine that you work on the Lendyr virtual assistant team, and you received a message that this automation will be discontinued. You need to replace this Action with a new one so that customers don't run into a "dead end" when they try to open a new account.
+
+In order to delete the action:
+
+1. Click the **ellipsis icon** to show options for the action.
+2. Select **Delete** from the overflow menu.
+3. Confirm the deletion of this action by clicking **Delete** again in the modal.
