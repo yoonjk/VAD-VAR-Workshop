@@ -137,3 +137,97 @@ In order to delete the action:
 1. Click the **ellipsis icon** to show options for the action.
 2. Select **Delete** from the overflow menu.
 3. Confirm the deletion of this action by clicking **Delete** again in the modal.
+
+Now let's build a new conversation flow that starts with the question "I want to open a new checking account please". To build it:
+
+1. Click the **New action +** button
+2. In the resulting menu select **Start from scratch**
+3. Give it the name `I want to open a new checking account please` and click **Save**
+
+We've created our action and you should see an empty first step available to you. Now to fill in the Step 1:
+
+1. Add the clarifying question in the **Assistants says** text box, such as "What type of account would you like to open?".
+2. Then click **Define customer response**.
+3. Hover over **Options**.
+4. Click **As a list** to enter the account options.
+5. On the resulting popup enter three options **Checking**, **Savings**, and **Investment**.
+6. Click **Apply** to save your changes.
+
+Your are now done with your first step! Click the **Save icon** in the top-right to save the changes to your new action.
+
+> Aside from the Save button, Watson Assistant automatically saves changes when you click on a 
+new step or open the preview. There's no "undo," however the auto-save can be switched off. 
+For more details, check the product documentation [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-save-actions).
+
+## Preview your action
+
+Note the **Preview** button in the lower-right which is present on virtually every screen you build your Actions. This button gives you the ability to instantly preview how the assistant works, at any time. Go ahead and click **Preview**.
+
+This open the **Preview** panel. Try out the newly added action by entering something similar to "How can I open a new account?".
+
+Note that although you didn't train the assistant on that specific question it was still able to response will the correct response for our newly created action. Now select one of the account types, and note that the action is complete; there are no additional steps for the assistant to take. 
+
+Click the refresh icon, and try asking the question another way, such as "I need a new account". Note that the assistant doesn't recognize this input.
+
+Let's expand the action to be able to understand this phase:
+
+1. Click the **Customer starts with:** section on the left-hand side.
+2. Enter the phrase `I need a new account`.
+3. You should now have 2 phrases available for the customer to start with.
+
+Start the preview again and use this phrase to ensure our assistant is now able to understand it.
+
+## Create another clarification step
+
+With your first step created and tested, let's finish this Action by creating another step:
+
+1. Click the first step in the side menu. 
+2. Add **Step 2** by clicking **New step +**.
+3. Enter `What's your investor number?` in the  **Assistant says** box.
+4. Click **Define customer response** and select **Number**.
+
+Next, you need to add some flow logic. Given the way this flow is intended to work an investor number should only be gathered in the case of the customer wanting to open an investment account. To do this:
+
+1. Change **without conditions** to **with conditions**. 
+2. Ensure the ensure to the first  question was **Investment** by select it from the dropdown.
+3. Click the **Save icon** to ensure these changes are saved.
+
+## Create an agent handoff step
+
+Now, you will add steps 3 and 4, each of which provide a final outcome to the user. In order to create step 3:
+
+1. Ensure you are currently viewing **Step 2**.
+2. Add **Step 3** by clicking **Next step +**.
+3. Select **with conditions** to make this step conditional, and enter the same condition used before (Step 1 = Investment).
+4. Enter `Let's connect you to an agent who can open a new investment account for you!` into the **Assistant says** box.
+5. Click the options under **And then** and select **Connect to agent**
+6. In the resulting modal, under **Message to agent (Optional)** type `The customer wants to open an investment account, and their investor number is $` to give context to the live agent.
+    - Note that the `$` will cause  a dropdown to appear. Be sure to click **2. What's your investor number** to pass this data along to the agent.
+7. Click **Apply**
+8. Finally, click the **Save icon** again in the top-right.
+
+## Create a final response step
+
+Lastly, let's create the final step of this action. This one should return a link to the user based on type of account they want to open. To create this step:
+
+1. Ensure **Step 3** is selected.
+2. Click **Next step +** to add **Step 4**.
+3. Under **Assistant says** type `To open a`.
+4. Now click the **Variable** button.
+5. Insert the response from Step 1 as the Action variable **(1. What type of account would you like to open?)**.
+6. Now complete the line with `account, visit our online portal`.
+7. Make the text `online portal` a link by selecting it and clicking the **Link** toolbar icon.
+    - Under the **URL** section input `lendyr.com/open-a-new-account?account_type=$`.
+    - The `$` will once again invoke our Action variables, and you can select **type of account** (Note: this will not create a working URL; it is just an illustration of how a paramater is passed through a link).
+8. Click **Apply** to create the link.
+
+Now let's apply some conidtions by:
+
+1. Changing **without conditions** to **with conditions**.
+2. Select **1. What type of account...**.
+3. Change **is** to **is any of**.
+4. Ensure both **Checking** and **Savings** are selected.
+
+Finally, ensure the **And then** option is set to **End the action** to ensure the action will end after this step. Be sure to save.
+
+Boom! Your steps should now be complete. Open up the preview and test the some of the steps of this action.
