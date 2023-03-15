@@ -128,7 +128,7 @@ In order to add a user to collaborate on this assistant:
 
 Let's get started creating a new action. In order to do so start by clicking the **Actions** option available in the left-hand navigation bar to get to the Actions page. Once there you should see a long list of current actions already there if you imported the JSON file from earlier into your assistant.
 
-Clicking the **Search icon** you shuold be able to use a text input to query the list. Start by typing `Open an account` into the search field to find the corresponding action.
+Clicking the **Search icon** you should be able to use a text input to query the list. Start by typing `Open an account` into the search field to find the corresponding action.
 
 Now, imagine that you work on the Lendyr virtual assistant team, and you received a message that this automation will be discontinued. You need to replace this Action with a new one so that customers don't run into a "dead end" when they try to open a new account.
 
@@ -218,10 +218,10 @@ Lastly, let's create the final step of this action. This one should return a lin
 6. Now complete the line with `account, visit our online portal`.
 7. Make the text `online portal` a link by selecting it and clicking the **Link** toolbar icon.
     - Under the **URL** section input `lendyr.com/open-a-new-account?account_type=$`.
-    - The `$` will once again invoke our Action variables, and you can select **type of account** (Note: this will not create a working URL; it is just an illustration of how a paramater is passed through a link).
+    - The `$` will once again invoke our Action variables, and you can select **type of account** (Note: this will not create a working URL; it is just an illustration of how a parameter is passed through a link).
 8. Click **Apply** to create the link.
 
-Now let's apply some conidtions by:
+Now let's apply some conditions by:
 
 1. Changing **without conditions** to **with conditions**.
 2. Select **1. What type of account...**.
