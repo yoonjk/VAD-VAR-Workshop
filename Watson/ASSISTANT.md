@@ -28,12 +28,16 @@ student)
 
 Starting by navigating to [IBM Cloud](https://cloud.ibm.com)
 
+![](./images/101/image-003.png)
+
 If you already have a Trial, Plus, or Enterprise instance of Watson Assistant, open it up and 
 create a new assistant. If you don’t have an instance of Watson Assistant, follow these 
 instructions to create a free Trial instance.
 
 To create a free Trial instance, Search for "Watson Assistant" in the top search bar and click 
 **Watson Assistant** under **Catalog Results**.
+
+![](./images/101/image-004.png)
 
 Now we can create our assistant by:
 
@@ -42,11 +46,17 @@ Now we can create our assistant by:
 3. Agree to the **Terms and Conditions**.
 4. Click on the **Create** button in the lower-right area of the page.
 
+![](./images/101/image-005.jpg)
+
 Now let's validate the creation of our new assistant:
 
 1. Click the **Resource list** icon on the left-side navigation.
 2. Expand the **AI/Machine Learning** section
 3. You should now be able to see your newly created Watson Assistant
+
+![](./images/101/image-006.jpg)
+
+![](./images/101/image-007.png)
 
 > Note: The service you create may have a suffix, like “Watson Assistant-hu.” These names are 
 identifiers for you to distinguish between the multiple services you may create. You can change 
@@ -54,9 +64,13 @@ them if you like.
 
 To launch Watson Assistant, click on the new service you created. From here, clicking the **Launch Watson Assistant** button will launch to the Watson Assistant homepage. 
 
+![](./images/101/image-008.jpg)
+
 1. Input a name you like into the **Assistant name** field.
 2. Provide a short description in the **Description field** (this is optional).
 3. Click the **Next** button in the top-right corner of the page.
+
+![](./images/101/image-010.jpg)
 
 On the following screen, make these selections:
 
@@ -66,11 +80,19 @@ On the following screen, make these selections:
 4. Select **I want to provide confident answers to common questions** as the main purpose of the assistant.
 5. Now click the **Next** button on the top-right
 
+![](./images/101/image-013.jpg)
+
 The next screen will now allow you to customize the look and feel of your assistant. Customize now or feel free to just click the **Next** button again in the top-right.
+
+![](./images/101/image-014.jpg)
 
 This screen allows you to preview the web chat of the assistant. Feel free to click the **Create** button in the top-right.
 
+![](./images/101/image-015.jpg)
+
 Finally, as shown on the image below, you will see the Home page of your new assistant.
+
+![](./images/101/image-016.png)
 
 ## Builder's perspective
 
@@ -79,6 +101,8 @@ Let's explore the persona of the Builder.
 To explore this perspective, you will create a copy of the Lendyr demo assistant in the new assistant that's been created.
 
 From the Home page, click on the **Actions** tab on the left-side. This is where content is written that the virtual assistant will be trained to answer.
+
+![](./images/101/image-018.jpg)
 
 > Actions are a representation of the tasks you want your assistant to help your customers with. 
 Each action contains a series of steps that represent individual exchanges with a customer. 
@@ -93,7 +117,13 @@ Now click the **Global settings** cog icon in the top-right. We will add some pr
 4. Then click the **Upload** button.
 5. If a modal displays click **Upload and replace**.
 
+![](./images/101/image-021.png)
+
+![](./images/101/image-022.png)
+
 A toast notification should now display confirming your upload. Finally, close the global settings window.
+
+![](./images/101/image-023.jpg)
 
 Your assistant is now a copy of the Lendyr.com assistant!
 
@@ -101,6 +131,8 @@ Your assistant is now a copy of the Lendyr.com assistant!
 ## Developer's perspective
 
 Developers can work in the Actions page too, but they often focus on more technical features. From the **Home** page, open the left menu and click **Integrations** on the bottom-left.
+
+![](./images/101/image-026.jpg)
 
 Watson Assistant Integrations add various channels, extensions, and third-party integrations to easily configure and deploy your assistant. Spend a few minutes exploring the Integrations page.
 
@@ -111,6 +143,8 @@ Earlier, we noted that developers spend more time on technical features than on 
 Finally, let's explore the perspective of a product manager.
 
 Product managers can work in the Actions and Integrations pages, but they typically focus on overall success, continuous improvement, and expansion. Using the left menu explore the **Publish**, **Environments**, and **Analyze** pages.
+
+![](./images/101/image-028.jpg)
 
 # 102: Actions and basic Identity Access Management
 
@@ -124,9 +158,17 @@ In order to add a user to collaborate on this assistant:
 4. Once done entering email addresses click **Submit**.
 5. A confirmation popup will appear showing that an invite has been sent. 
 
+![](./images/102/image-003.png)
+
+![](./images/102/image-004.png)
+
+![](./images/102/image-005.png)
+
 ## Building your first action
 
 Let's get started creating a new action. In order to do so start by clicking the **Actions** option available in the left-hand navigation bar to get to the Actions page. Once there you should see a long list of current actions already there if you imported the JSON file from earlier into your assistant.
+
+![](./images/102/image-009.png)
 
 Clicking the **Search icon** you should be able to use a text input to query the list. Start by typing `Open an account` into the search field to find the corresponding action.
 
@@ -138,11 +180,24 @@ In order to delete the action:
 2. Select **Delete** from the overflow menu.
 3. Confirm the deletion of this action by clicking **Delete** again in the modal.
 
-Now let's build a new conversation flow that starts with the question "I want to open a new checking account please". To build it:
+![](./images/102/image-010.jpg)
+
+Now let's build a new conversation flow that starts with the question "I want to open a new checking account please". Something like: 
+
+![](./images/102/image-011.png)
+
+
+To build it:
 
 1. Click the **New action +** button
 2. In the resulting menu select **Start from scratch**
 3. Give it the name `I want to open a new checking account please` and click **Save**
+
+![](./images/102/image-012.png)
+
+![](./images/102/image-013.jpg)
+
+![](./images/102/image-014.png)
 
 We've created our action and you should see an empty first step available to you. Now to fill in the Step 1:
 
@@ -153,7 +208,14 @@ We've created our action and you should see an empty first step available to you
 5. On the resulting popup enter three options **Checking**, **Savings**, and **Investment**.
 6. Click **Apply** to save your changes.
 
+![](./images/102/image-017.jpg)
+
+
+![](./images/102/image-018.png)
+
 Your are now done with your first step! Click the **Save icon** in the top-right to save the changes to your new action.
+
+![](./images/102/image-019.jpg)
 
 > Aside from the Save button, Watson Assistant automatically saves changes when you click on a 
 new step or open the preview. There's no "undo," however the auto-save can be switched off. 
@@ -161,7 +223,9 @@ For more details, check the product documentation [here](https://cloud.ibm.com/d
 
 ## Preview your action
 
-Note the **Preview** button in the lower-right which is present on virtually every screen you build your Actions. This button gives you the ability to instantly preview how the assistant works, at any time. Go ahead and click **Preview**.
+Note the **Preview** button in the lower-right which is present on virtually every screen you build your Actions. This button gives you the ability to instantly preview how the assistant works, at any time. Go ahead and click **Preview**:
+
+![](./images/102/image-020.jpg)
 
 This open the **Preview** panel. Try out the newly added action by entering something similar to "How can I open a new account?".
 
@@ -169,13 +233,19 @@ This open the **Preview** panel. Try out the newly added action by entering some
 
 Now select one of the account types, and note that the action is complete; there are no additional steps for the assistant to take. 
 
-Click the refresh icon, and try asking the question another way, such as "I need a new account". Note that the assistant doesn't recognize this input.
+![](./images/102/image-021.png)
+
+Click the refresh icon, and try asking the question another way, such as "I need a new account". Note that the assistant doesn't recognize this input:
+
+![](./images/102/image-022.png)
 
 Let's expand the action to be able to understand this phase:
 
 1. Click the **Customer starts with:** section on the left-hand side.
 2. Enter the phrase `I need a new account`.
 3. You should now have 2 phrases available for the customer to start with.
+
+![](./images/102/image-023.jpg)
 
 Start the preview again and use this phrase to ensure our assistant is now able to understand it.
 
@@ -188,11 +258,19 @@ With your first step created and tested, let's finish this Action by creating an
 3. Enter `What's your investor number?` in the  **Assistant says** box.
 4. Click **Define customer response** and select **Number**.
 
+![](./images/102/image-025.jpg)
+
 Next, you need to add some flow logic. Given the way this flow is intended to work an investor number should only be gathered in the case of the customer wanting to open an investment account. To do this:
 
 1. Change **without conditions** to **with conditions**. 
 2. Ensure the ensure to the first  question was **Investment** by select it from the dropdown.
 3. Click the **Save icon** to ensure these changes are saved.
+
+![](./images/102/image-026.jpg)
+
+![](./images/102/image-027.jpg)
+
+![](./images/102/image-033.jpg)
 
 ## Create an agent handoff step
 
@@ -207,6 +285,11 @@ Now, you will add steps 3 and 4, each of which provide a final outcome to the us
     - Note that the `$` will cause  a dropdown to appear. Be sure to click **2. What's your investor number** to pass this data along to the agent.
 7. Click **Apply**
 8. Finally, click the **Save icon** again in the top-right.
+
+![](./images/102/image-029.jpg)
+
+![](./images/102/image-030.jpg)
+
 
 ## Create a final response step
 
@@ -223,6 +306,12 @@ Lastly, let's create the final step of this action. This one should return a lin
     - The `$` will once again invoke our Action variables, and you can select **type of account** (Note: this will not create a working URL; it is just an illustration of how a parameter is passed through a link).
 8. Click **Apply** to create the link.
 
+![](./images/102/image-034.png)
+
+![](./images/102/image-035.jpg)
+
+![](./images/102/image-036.png)
+
 Now let's apply some conditions by:
 
 1. Changing **without conditions** to **with conditions**.
@@ -230,9 +319,15 @@ Now let's apply some conditions by:
 3. Change **is** to **is any of**.
 4. Ensure both **Checking** and **Savings** are selected.
 
+![](./images/102/image-037.png)
+
 Finally, ensure the **And then** option is set to **End the action** to end the action after this step.
 
+![](./images/102/image-038.jpg)
+
 Boom! Your steps should now be complete. Open up the preview and test the some of the steps of this action.
+
+![](./images/102/image-039.jpg)
 
 ## Preview your assistant
 
@@ -247,6 +342,12 @@ Navigate back to the home page of your assistant. Next, you will check to see ho
 7. Change **Primary color** to `#004144`. This is the color of the chant header.
 8. Change **Secondary color** to `#3D3D3D`. This colors the message bubble.
 9. Change **Accent color** to `#004144`. This accentuates certain responses and icons. 
+
+![](./images/102/image-044.jpg)
+
+![](./images/102/image-045.png)
+
+![](./images/102/image-046.jpg)
 
 Now you will customize the home screen tab. Start by:
 
@@ -267,6 +368,8 @@ Now, you will embed your assistant in the Lendyr Bank’s website! To do this:
 3. Copy the value of your assistants's **region** and paste it into a text document. 
 4. Copy the value of your assistants's **serviceInstanceId** and paste it into a text document.
 5. Finally, click **Save and exit**.
+
+![](./images/102/image-047.jpg)
 
 Now take those three values, and plug them into this URL:
 
