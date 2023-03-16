@@ -386,11 +386,15 @@ To see the confidence scores, you must be in the Preview window within the Actio
 Say "account opening", and note the clarifying question that your assistant asks in response to 
 the input.
 
+![](./images/103/image-002.png)
+
 To view the confidence scores in your assistant:
 
 1. Click the **Debug mode** icon.
 2. Hover your mouse over the **dial icon** next to the "account opening" message.
 3. This will display the confidence scores as percentages.
+
+![](./images/102/image-003.png)
 
 ## Autolearning
 
@@ -426,6 +430,10 @@ Here is an example of digression where Watson Assistant moves between different 
 4. Note that the assistant will digress to the **Student loan amounts** action.
 5. Then, once you complete the **Student loan amounts** action by selecting "Undergraduate", the assistant returns to the original "Applying for a student loan" action.
 
+![](./images/102/image-004.png)
+
+![](./images/102/image-005.png)
+
 ## Slot-filling
 
 Slot-filling is a term that refers to storing information that the end user shares with the assistant. 
@@ -442,10 +450,16 @@ To see this in action:
     - "837479088"
 4. Note how data is filled in on the **Action variable** window
 
+![](./images/102/image-006.jpg)
+
+![](./images/102/image-007.png)
+
 This, by itself, is not an artificial intelligence feature. Artificial intelligence comes in when the 
 end user corrects themselves or provides information out of order or ahead of time.
 
 Click **Refresh** and say "I want to open a new account and my investor account is 8875888", and then select "investment" for the type of account. Note that Watson Assistant puts the investor number in its slot, even though you told Watson Assistant previously to expect it in a subsequent step.
+
+![](./images/102/image-008.png)
 
 # 104: Analytics
 
@@ -458,13 +472,21 @@ Unless you thoroughly tested or experimented with your assistant as you complete
 1. Click the **Analyze** option in the left-hand menu.
 2. Once there ensure you looking at the **Draft** environment.
 
+![](./images/104/image-000.jpg)
+
 The Analyze page displays high-level metrics on the performance of your assistant. These metrics and their underlying data are populated in real time. Take a moment to look around – you will see metrics such as number of unique users, conversations, and requests handled by the assistant in the specified date range.
 
 ### Adding data to the Analyze page via Lendyr
 
 Open your assistant on the Lendyr using the link you created in the previous section to embed you assistant. Try out a few different conversations. To engage in an additional separate conversation with your assistant there should be a **Restart** button in upper-left menu. 
 
+![](./images/104/image-001.jpg)
+
+![](./images/104/image-002.jpg)
+
 After this return to the **Analyze** page. Click the **Refresh** button in the top-right corner to pull in the latest data from the conversation you just had with the assistant.
+
+![](./images/104/image-003.jpg)
 
 When the page refreshes, you should now see a slightly higher request and conversation count.
 
@@ -478,6 +500,8 @@ You need a way to share your assistant with a testing or quality assurance (QA) 
 2. Then click the **Copy link to share** button.
 3. Open this link in a new tab.
     - As a builder or product manager, you can copy this shared link and send it to a testing team. The testing team can then use this shared link to access and test the assistant.
+
+![](./images/104/image-004.jpg)
 
 Once the testers access the system, you will be able to see the testing team’s conversation data appear in the Analyze page. Since you opened a new tab, imagine you are one of the testers. Go ahead and have a conversation with the assistant. Then, return to the Analyze page in your assistant, then refresh it again to pull in the data from your latest conversation.
 
