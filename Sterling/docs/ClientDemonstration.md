@@ -60,19 +60,13 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
     ![image](_attachments/FZ_NewSitePort.png)
 
-    ??? tip "Don't remember the port number?"
-        The port number can be found in the details of the **sterling-fg-b2bi-asi-backend-svc** service in the OpenShift web console - use **adapters-1's** **Node port**.
-
-        ![image](_attachments/OSServicesASIOverview-NodePort.png)
+    > "Don't remember the port number?" The port number can be found in the details of the **sterling-fg-b2bi-asi-backend-svc** service in the OpenShift web console - use **adapters-1's** **Node port**.
 
 1. Enter **bb-partner2** in the **User** field and **password** in the **Password** field and click the **Connect** button.
 
     ![image](_attachments/BB_FZ_NewSiteUserPassword.png)
 
-    ??? tip "FileZilla Warning about saving passwords"
-        If you have told FileZilla not to save passwords, you will see a warning about the login process being changed from 'Normal' to 'Ask for password'. This is ok and you will be prompted for the password for **bb-partner2** when connecting to the SFTP server.
-
-        ![image](_attachments/BB_FZ_PasswordWarn.png)
+    > If you have told FileZilla not to save passwords, you will see a warning about the login process being changed from 'Normal' to 'Ask for password'. This is ok and you will just be prompted for the password for **bb-partner2** when connecting to the SFTP server.
 
 1. Check the **Always trust this host, add this key to cache** checkbox and click **OK** on the **Unknown host key** pop-up window.
 
@@ -116,8 +110,12 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
 1. Click the **SampleInvoice1.xml** file in the **Downloads** directory and click **Open**.
 
+    > Navigate to the directory where the sample invoice files were downloaded or pick another file to transfer. Do not transfer any file with confidential or personal information. The image above was captured using Firefox on MacOS, other browsers and operating system combinations may look different.
+
+    <!-- alternate render for mkdocs
     !!! note "Note"
         Navigate to the directory where the sample invoice files were downloaded or pick another file to transfer. Do not transfer any file with confidential or personal information. The image above was captured using Firefox on MacOS, other browsers and operating system combinations may look different.
+    -->
 
     ![image](_attachments/MyFG_UploadFileDialog.png)
 
@@ -129,8 +127,12 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
     ![image](_attachments/BB_FZ_UploadFileTransferSuccess.png)
 
+    > The file size shown in **IBM Sterling My File Gateway 2.0** is in kilobytes (KB) and in **FileZilla** the file size is displayed in bytes, but they are the same and the file transfer was successful.
+
+    <!-- alternate render for mkdocs
     !!! note "Note"
         The file size shown in **IBM Sterling My File Gateway 2.0** is in kilobytes (KB) and in **FileZilla** the file size is displayed in bytes, but they are the same and the file transfer was successful.
+    -->
 
     It is important to realize the file has been transferred to the **B2Bi Gateway** repository. In a production environment, **bb-partner2** would need to download the file. FileZilla is showing the contents of the data store on the gateway that **bb-partner2** has permissions to see.
 
@@ -150,8 +152,12 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
     Notice events **FG_0503** and **FG_0504** show the **BB Passthrough** channel template was used to properly route the transferred file to **bb-partner2**.
 
-??? question "BP quiz question"
-    There is a quiz question related to the events of a successful file transfer. A screen capture of all the events and event numbers will help answer the question.
+    ![BP quiz question](_attachments/questionICON.png) There is a quiz question related to the events of a successful file transfer. A screen capture of all the events and event numbers will help answer the question.
+
+    <!-- alternate render for mkdocs
+    ??? question "BP quiz question"
+        There is a quiz question related to the events of a successful file transfer. A screen capture of all the events and event numbers will help answer the question.
+    -->
 
 For additional demonstrations, consider the following:
 

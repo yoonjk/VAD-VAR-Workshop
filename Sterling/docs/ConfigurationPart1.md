@@ -2,8 +2,14 @@
 
 In this chapter, learn how to configure a Secure File Transfer Protocol (SFTP) adapter using the containerized B2Bi deployment.
 
+**!!** **PLEASE NOTE THAT THIS FIRST LAB WILL BE LEAD AND COMPLETED BY THE INSTRUCTOR ONLY** **!!**
+
+This will be a group exercise to complete B2Bi Configuration Part 1 since there is only 1 SSH Host identity and 1 SFTP Server adapter needed for the full workshop. However, you may follow along with the steps shown as they are performed by the workshop leader. When repeating this setup for a client demonstration on your own, complete both B2Bi Configuration Part 1 **and** B2Bi Configuration Part 2.
+
+<!-- alternate render for mkdocs
 !!! danger "Instructor-lead Activity"
     This will be a group exercise to complete B2Bi Configuration Part 1 since there is only 1 SSH Host identity and 1 SFTP Server adapter needed for the full workshop. However, you may follow along with the steps shown as they are performed by the workshop leader. When repeating this setup for a client demonstration on your own, complete both B2Bi Configuration Part 1 **and** B2Bi Configuration Part 2.
+-->
 
 ## Open the B2Bi dashboard
 
@@ -17,8 +23,12 @@ The B2Bi dashboard runs as an application on Red Hat OpenShift. These steps will
 
     ![image](_attachments/OSRoutesMenu.png)
 
+    ![BP quiz question](_attachments/questionICON.png) Several BP quiz questions will come from the **OpenShift web console**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+
+    <!-- alternate render for mkdocs
     ??? question "BP quiz question"
         Several BP quiz questions will come from the **OpenShift web console**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+    -->
 
 1. Notice all the routes that are currently defined in the b2bi Project, there are 15 of them
 
@@ -28,8 +38,12 @@ The B2Bi dashboard runs as an application on Red Hat OpenShift. These steps will
 
     ![image](_attachments/OSB2BiDashboardRoute.png)
 
+    > As this is a new install, in this demonstration simple adminstrative user ids and passwords will be used. To keep things simple in this demonstration, all passwords will be set to **password#**. Not secure, but this will be a short lived demonstration environment.
+
+    <!-- alternate render for mkdocs
     !!! hint
         As this is a new install, in this demonstration simple adminstrative user ids and passwords will be used. To keep things simple in this demonstration, all passwords will be set to **password#**. Not secure, but this will be a short lived demonstration environment.
+    -->
 
 1. Enter **admin** in the **User ID** field and **password#** in the **Password** field, and then click **Sign In**.
 
@@ -39,8 +53,12 @@ The B2Bi dashboard runs as an application on Red Hat OpenShift. These steps will
 
 First, a **SSH Host Identity** needs to be created. The Host Identity Key is a Private/Public key pair used to identify the Application SFTP Server to remote clients.  Note, for this demonstration, default values will be used where possible, but production deployments may use other values depending on client requirements.
 
+![BP quiz question](_attachments/questionICON.png) Several BP quiz questions will come from the **B2Bi dashboard**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+
+<!-- alternate render for mkdocs
 ??? question "BP quiz question"
     Several BP quiz questions will come from the **B2Bi dashboard**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+-->
 
 1. Click the **Deployment** menu item in left-hand menu bar.
 
