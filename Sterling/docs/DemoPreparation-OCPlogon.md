@@ -1,9 +1,11 @@
-This demonstration workshop uses an OpenShift environment provisioned from IBM Technology Zone (ITZ) <a href="https://techzone.ibm.com/my/reservations/create/63dba359cc19150018af084f" target="_blank">here</a>. If you are attending the workshop in-person, this OpenShift environment has already been created for you.
+# Demo prep - OpenShift Logon
+
+This demonstration workshop uses an OpenShift environment provisioned from IBM Technology Zone (ITZ) [here](https://techzone.ibm.com/my/reservations/create/63dba359cc19150018af084f). If you are attending the workshop in-person, this OpenShift environment has already been created for you.
 
 <!-- workshop with pre-provisioned cluster
 At this point, all users should have completed the steps in the IBM Sterling Data Exchange Level 3 learning plan to reserve the Red Hat OpenShift on IBM Cloud environment as described in the IBM Sterling Data Exchange Level 3 <a href="https://ibm.seismic.com/Link/Content/DC8JQcd2PWDTR8fB2FmjmV3cPC8P" target="_blank">Introduction video</a>. Before proceeding, validate that the reservation has been fully provisioned and is in the **Ready** state in ITZ. If not, please complete those steps before proceeding.
 
-![](_attachments/TZReady.png)
+![image](_attachments/TZReady.png)
 
 The following steps must be performed before delivering the demonstration. These steps should be performed well in advance of starting an actual client demonstration as it will take approximately 90 minutes for all steps to complete.
 
@@ -11,14 +13,14 @@ The following steps must be performed before delivering the demonstration. These
 
 1. Open the **You are invited to join an account in IBM Cloud** email received from IBM Cloud and click the **Join now** link.
 
-![](_attachments/JoinCloud.png)
+![image](_attachments/JoinCloud.png)
 
 ??? error "Did not get an e-mail from IBM Cloud?"
 
     If you did not receive an e-mail from IBM Cloud inviting you to join the {{tz_environment.cloudAccount}}, but you did receive a notification from ITZ that your environment was ready, try the following:
 
     - Log into cloud.ibm.com using your IBM Cloud ID.
-    - Click the ![](_attachments/BellIcon.png).
+    - Click the ![image](_attachments/BellIcon.png).
     - Look for a new notification with the subject: **Action required: You are invited to join an account in IBM Cloud**.
     - Click on the notification and then click the **Join now** link.
 
@@ -26,31 +28,31 @@ The following steps must be performed before delivering the demonstration. These
 
 1. In the browser window that opens, click the **Join Account** button.
 
-![](_attachments/JoinAccount.png)
+![image](_attachments/JoinAccount.png)
 
 Follow the steps to login to IBM Cloud.
 
 3. On the **IBM Cloud Dashboard** set the current account to **{{tz_environment.cloudAccount}}**.
 
-![](_attachments/RightCloudAccount.png)
+![image](_attachments/RightCloudAccount.png)
 
 ??? failure "Not seeing {{tz_environment.cloudAccount}}?"
     It is possible ITZ provisioned the OpenShift cluster in a different IBM Cloud account. Select the account specified in the ITZ reservation.
-    ![](_attachments/OSITZReservation.png)
+    ![image](_attachments/OSITZReservation.png)
 
 ## Access the OpenShift web console
 
-4. Click the **OpenShift** ![](_attachments/OpenShiftIcon.png) icon in the left-hand menu bar.
+4. Click the **OpenShift** ![image](_attachments/OpenShiftIcon.png) icon in the left-hand menu bar.
 
-![](_attachments/CloudDashboardOpenShiftMenu.png)
+![image](_attachments/CloudDashboardOpenShiftMenu.png)
 
 5. Click **Clusters**.
 
-![](_attachments/OpenShiftOverview.png)
+![image](_attachments/OpenShiftOverview.png)
 
 6. Click the OpenShift cluster name in the table.
 
-![](_attachments/OpenShiftClusters.png)
+![image](_attachments/OpenShiftClusters.png)
 
 Note: the cluster name will be different than seen in the above image.
 
@@ -60,15 +62,15 @@ In a web browser open the link to the OpenShift Cluster provided from your works
 
 When the page loads, you will see an IDP selector, choose **workshop-user**
 
-![](_attachments/OCPIDPChooser.png)
+![image](_attachments/OCPIDPChooser.png)
 
 At the login prompt, type in **cluster-user** as the Username and enter the password from your workshop leader. Then, press **Log in**.
 
-![](_attachments/OCPLogin.png)
+![image](_attachments/OCPLogin.png)
 
 In a moment, a page like the one below should open in the browser window.
 
-![](_attachments/OSWebConsoleOverview.png)
+![image](_attachments/OSWebConsoleOverview.png)
 
 Leave this browser window open. It will be used again later.
 
@@ -85,11 +87,11 @@ In this part of the demonstration, you will use the IBM Cloud Shell. If you are 
 
 8. In the IBM Cloud Portal, with the demonstration account selected (**{{tz_environment.cloudAccount}}**), click the IBM Cloud Shell icon.
 
-![](_attachments/CloudShellMenu2.png)
+![image](_attachments/CloudShellMenu2.png)
 
 The IBM Cloud Shell will open in a new browser tab or window. It may take a few seconds for the shell to initialize.
 
-![](_attachments/CloudShell.png)
+![image](_attachments/CloudShell.png)
 
 9. Create a new directory for the B2Bi installation scripts.
 
@@ -189,19 +191,19 @@ For the next steps, the **OpenShift** login command to authenticate to the OpenS
 
 14. Switch to the **OpenShift web console** browser window or tab.
 
-![](_attachments/OSWebConsoleOverview.png)
+![image](_attachments/OSWebConsoleOverview.png)
 
 15. Click the **IAM** identity drop-down menu at top right of the **OpenShift web console** and click the **Copy login command** option.
 
-![](_attachments/OSCopyLoginMenu.png)
+![image](_attachments/OSCopyLoginMenu.png)
 
 16. Click the **Display Token** link.
 
-![](_attachments/DisplayTokenLink.png)
+![image](_attachments/DisplayTokenLink.png)
 
 17. Copy the string in the **Log in with this token** field.
 
-![](_attachments/OSLoginAPIToken.png)
+![image](_attachments/OSLoginAPIToken.png)
 
 18. Switch back to the IBM Cloud Shell browser window or tab from earlier.
 19. Paste the **oc login** command line copied in step 17 into the IBM Cloud Shell window and press enter.
@@ -250,8 +252,8 @@ For the next steps, the **OpenShift** login command to authenticate to the OpenS
 
 ??? tip "Optional: monitor events in OpenShift web console"
     Use the OpenShift web console to monitor the **Db2** project events and pod creation.
-    ![](_attachments/OSEventsDB2.png)
-    ![](_attachments/OSPodsDB2.png)
+    ![image](_attachments/OSEventsDB2.png)
+    ![image](_attachments/OSPodsDB2.png)
 
 21. Verify Db2 is up and running in the OpenShift cluster.
 
@@ -297,11 +299,9 @@ oc logs -f ${DB2_NAME}-0
     Estimated time 3 second(s)
     Task #4 end
 
-
         ...
         **Long output - truncated in this example**
         ...
-
 
     2022-10-18-16.44.43.180954+000 I33681E386            LEVEL: Warning
     PID     : 15858                TID : 139996146354048 PROC : db2start
@@ -525,11 +525,11 @@ Note, re-authentication to ibm.com may be required.
 
 31. If an entitlement key does not already exist, click **Add new key**.
 
-![](_attachments/EntitlementKey4.png)
+![image](_attachments/EntitlementKey4.png)
 
 32. Click the **Copy** button.
 
-![](_attachments/EntitlementKey5.png)
+![image](_attachments/EntitlementKey5.png)
 
 33. Return to the IBM Cloud Shell window, use the arrow keys to move the cursor between the quotes in the **export APIKEY** line, press **i** to enter input mode, and paste the copied **entitlement key** between the quotes.
 34. Press the **esc** key to exit input mode.
@@ -568,7 +568,6 @@ cat env.sh
 
     itzuser@itz-2700039nft-srv4:~/b2bi$
 
-
 ## Install B2Bi in the OpenShift cluster
 
 40. Deploy the B2Bi related containers on OpenShift.
@@ -582,9 +581,9 @@ cat env.sh
 
 ??? tip "Optional: monitor events in the OpenShift web console"
     Use the OpenShift web console to monitor the **b2bi** project events and pod creation.
-    ![](_attachments/OSEventsB2Bi.png)
+    ![image](_attachments/OSEventsB2Bi.png)
 
-    ![](_attachments/OSPodsB2Bi.png)
+    ![image](_attachments/OSPodsB2Bi.png)
 
 ??? example "Example output"
     Now using project "b2bi" on server "https://c103-e.us-south.containers.cloud.ibm.com:31501".
