@@ -1,4 +1,4 @@
-This demonstration assumes users have at least a basic knowledge of IBM Sterling B2B Integrator. Before proceeding, it is highly encouraged that users complete the {{learningplan.l2}} learning plan. The plan is accessible to IBM employees <a href="https://yourlearning.ibm.com/activity/PLAN-C22C127B3AEC" target="_blank">here</a> and Business Partners <a href="https://learn.ibm.com/course/view.php?id=11891" target="_blank">here</a>.
+This demonstration assumes users have at least a basic knowledge of IBM Sterling B2B Integrator. Before proceeding, it is highly encouraged that users complete the IBM Sterling Data Exchange Level 2 learning plan. The plan is accessible to IBM employees <a href="https://yourlearning.ibm.com/activity/PLAN-C22C127B3AEC" target="_blank">here</a> and Business Partners <a href="https://learn.ibm.com/course/view.php?id=11891" target="_blank">here</a>.
 
 <!-- workshop version will not need video intro
 
