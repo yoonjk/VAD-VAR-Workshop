@@ -12,7 +12,7 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 ## Labs
 
-- **Module 101: What, Why, How?**
+- **[Module 101: What, Why, How?](101.md)**
 
 - **[Module 102: Monitor Calls + App Tracing](102.md)**
 
@@ -20,4 +20,4 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 - **[Module 104: Alerting + Synthetics](104.md)**
 
-- **Optional Module 105: TBD**
+- **Optional Module 105: Additional Instana features**
