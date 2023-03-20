@@ -12,7 +12,7 @@ The Markdown files below will contain curated Build Lab versions of technical sa
 
 ### Watson
 
-- [Watson Assistant lab](Watson/ASSREADMEISTANT.md)
+- [Watson Assistant lab](Watson/README.md)
 
 ### Maximo
 
