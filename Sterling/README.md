@@ -6,8 +6,8 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 ## Prerequisites
 
-- IBM id
-- IBM Cloud account
+- Workstation with Web Browser (Mozilla Firefox and Chrome tested, others ok)
+- Strongly Recommended: [FileZilla](https://filezilla-project.org/)
 - Recommended: Level 1 and Level 2 material for the [IBM Sterling Data Exchange Sales Foundation badge](https://www.credly.com/org/ibm/badge/ibm-sterling-data-exchange-sales-foundation).
 
 ## Labs
