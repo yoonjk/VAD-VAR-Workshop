@@ -6,7 +6,7 @@ These workshops include hands-on labs that give you "show, not tell" experientia
 
 These workshops have been customized from the Technical Sales badge labs in order to fit the time and to add additional "Level 3+" skills to answer common questions not covered by the base labs nor the Technical Sales quiz.
 
-Keep an eye out for sections marked with a :green_circle: as these topics are very important for the end of workshop quiz.
+:green_circle: Keep an eye out for sections marked with a green circle as these topics are very important for the end of workshop quiz.
 
 ## Products
 
