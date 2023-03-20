@@ -152,7 +152,7 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
     Notice events **FG_0503** and **FG_0504** show the **BB Passthrough** channel template was used to properly route the transferred file to **bb-partner2**.
 
-    ![BP quiz question](_attachments/questionICON.png) There is a quiz question related to the events of a successful file transfer. A screen capture of all the events and event numbers will help answer the question.
+    :green_circle: There is a quiz question related to the events of a successful file transfer. A screen capture of all the events and event numbers will help answer the question.
 
     <!-- alternate render for mkdocs
     ??? question "BP quiz question"

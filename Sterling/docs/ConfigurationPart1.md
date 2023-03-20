@@ -23,7 +23,7 @@ The B2Bi dashboard runs as an application on Red Hat OpenShift. These steps will
 
     ![image](_attachments/OSRoutesMenu.png)
 
-    ![BP quiz question](_attachments/questionICON.png) Several BP quiz questions will come from the **OpenShift web console**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+    :green_circle: Several BP quiz questions will come from the **OpenShift web console**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
 
     <!-- alternate render for mkdocs
     ??? question "BP quiz question"
@@ -53,7 +53,7 @@ The B2Bi dashboard runs as an application on Red Hat OpenShift. These steps will
 
 First, a **SSH Host Identity** needs to be created. The Host Identity Key is a Private/Public key pair used to identify the Application SFTP Server to remote clients.  Note, for this demonstration, default values will be used where possible, but production deployments may use other values depending on client requirements.
 
-![BP quiz question](_attachments/questionICON.png) Several BP quiz questions will come from the **B2Bi dashboard**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
+:green_circle: Several BP quiz questions will come from the **B2Bi dashboard**. When taking the BP quiz make sure the ITZ environment is still active and keep this demonstration script open.
 
 <!-- alternate render for mkdocs
 ??? question "BP quiz question"
