@@ -20,4 +20,4 @@ After completing these labs in a workshop session, you'll be able to earn the [W
 
 - **[Module 104: Analytics](104.md)**: Learn about Watson Assistant’s analytics, a powerful capability that takes the guesswork out of improving your assistant’s performance.
 
-- **Optional Module 105: Custom Extensions**: Learn how to integrate Watson Assistant with external services, like CRM systems, ticketing services, or databases, with custom extensions.
+- **[Optional Module 105: Custom Extensions](105.md)**: Learn how to integrate Watson Assistant with external services, like CRM systems, ticketing services, or databases, with custom extensions.
