@@ -8,24 +8,20 @@ The Markdown files below will contain curated Build Lab versions of technical sa
 
 ### Instana
 
-- [Main page](Instana/README.md)
-- [Instana Observability lab](Instana/OBSERVABILITY.md)
+- [Instana lab](Instana/README.md)
 
 ### Watson
 
-- [Main page](Watson/README.md)
-- [Watson Assistant lab](Watson/ASSISTANT.md)
+- [Watson Assistant lab](Watson/ASSREADMEISTANT.md)
 
 ### Maximo
 
-- [Main page](Maximo/README.md)
-- [Maximo Application Suite lab](Maximo/APPLICATION-SUITE.md)
-- [Maximo Visual Inspection lab](Maximo/VISUAL-INSPECTION.md)
+- [Maximo Application Suite lab](Maximo/README.md)
+- [Maximo Visual Inspection lab](Maximo/README.md)
 
 ### Sterling
 
-- [Main page](Sterling/README.md)
-- [Sterling Data Exchange lab](Sterling/DATA-EXCHANGE.md)
+- [Sterling Data Exchange lab](Sterling/READMEE.md)
 
 ## License
 
