@@ -6,8 +6,6 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 ## Prerequisites
 
-- IBM id
-- IBM Cloud account
 - Recommended: Level 1 and Level 2 material for the [Instana by IBM Sales Foundation badge](https://www.credly.com/org/ibm/badge/instana-by-ibm-sales-foundation).
 
 ## Labs
