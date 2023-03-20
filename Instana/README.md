@@ -16,7 +16,7 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 - **[Module 102: Monitor Calls + App Tracing](102.md)**
 
-- **Module 103: Load Testing + Chaos**
+- **[Module 103: Load Testing + Chaos](103.md)**
 
 - **[Module 104: Alerting + Synthetics](104.md)**
 
