@@ -1,31 +1,28 @@
-# VAD VAR Workshop
+# Experiential Selling Workshops for IBM Ecosystem Partners (VADs/VARs)
 
-Content for building experiential sales skills with various IBM products. These tutorials are hands-on labs that give you "show, not tell" experiential selling skills.
+This repo contains content for IBM Ecosystem partners (primarily our Value-Added Distributors and Value-Added Resellers) to build experiential sales skills with various IBM products.
 
-The Markdown files below will contain curated Build Lab versions of technical sales hands-on labs that can be cloned and used by partners for their own demos.
+These workshops include hands-on labs that give you "show, not tell" experiential selling skills. The content will help you prepare for the [Level 3 Technical Sales badges](https://ibm.seismic.com/Link/Content/DCGX2M377qBM38TMpQ7DB3WVmQg8) for each technology.
+
+These workshops have been customized from the Technical Sales badge labs in order to fit the time and to add additional "Level 3+" skills to answer common questions not covered by the base labs nor the Technical Sales quiz.
 
 ## Products
 
 ### Instana
 
-- [Main page](Instana/README.md)
-- [Instana Observability lab](Instana/OBSERVABILITY.md)
+- [Instana workshop](Instana/README.md)
 
 ### Watson
 
-- [Main page](Watson/README.md)
-- [Watson Assistant lab](Watson/ASSISTANT.md)
+- [Watson Assistant workshop](Watson/README.md)
 
 ### Maximo
 
-- [Main page](Maximo/README.md)
-- [Maximo Application Suite lab](Maximo/APPLICATION-SUITE.md)
-- [Maximo Visual Inspection lab](Maximo/VISUAL-INSPECTION.md)
+- [Maximo Application Suite (including separate Visual Inspection material) workshop](Maximo/README.md)
 
 ### Sterling
 
-- [Main page](Sterling/README.md)
-- [Sterling Data Exchange lab](Sterling/DATA-EXCHANGE.md)
+- [Sterling Data Exchange workshop](Sterling/README.md)
 
 ## License
 

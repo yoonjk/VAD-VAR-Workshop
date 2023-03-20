@@ -9,27 +9,27 @@ Completing this lab requires access to the latest version of the Maximo Applicat
 1. Click on this [TechZone](https://techzone.ibm.com/my/reservations/create/61e86836cf867a001eadbcaf) form to request access to the MAS demo environment.
 2. On this form, select **Reserve now**.
 
-    <img width="1237" alt="1-mas" src="https://user-images.githubusercontent.com/40394344/225987130-86d17b0d-13ad-440b-8ca2-de8aa4c5e3a3.png">
+<img width="1237" alt="1-mas" src="https://user-images.githubusercontent.com/40394344/225987130-86d17b0d-13ad-440b-8ca2-de8aa4c5e3a3.png">
 
-4. Click on the **Purpose** dropdown and select **Practice/Self-Education** from the list **(A)**.
-5. In the **Purpose description** textbox, enter “Level 3 demo” **(B)**.
-6. Click on the **Preferred Geography** dropdown and select **Dallas 1 (VPC) (C)**.
-7. Feel free to leave the **End date and time** fields as they are **(D)**.
-8. Click **Submit (E)**.
+3. Click on the **Purpose** dropdown and select **Practice/Self-Education** from the list **(A)**.
+4. In the **Purpose description** textbox, enter “Level 3 demo” **(B)**.
+5. Click on the **Preferred Geography** dropdown and select **Dallas 1 (VPC) (C)**.
+6. Feel free to leave the **End date and time** fields as they are **(D)**.
+7. Click **Submit (E)**.
 
-    You will almost immediately receive an email notifying that your environment has begun provisioning. After 5-10 minutes, you’ll receive another email notifying you that your environment is ready, with details on how to access it.
-    
-    <img width="1290" alt="2-mas" src="https://user-images.githubusercontent.com/40394344/226028615-b2b99991-3c56-47e1-9fcd-beaee3c73ad9.png">
+   You will almost immediately receive an email notifying that your environment has begun provisioning. After 5-10 minutes, you’ll receive another email notifying you that your environment is ready, with details on how to access it.
 
-    **Caution:** The maximum duration for reserving this demo environment is 3 days (72 hours). Please try and complete this demo script within that time to avoid losing demo access before completion.
+   <img width="1290" alt="2-mas" src="https://user-images.githubusercontent.com/40394344/226028615-b2b99991-3c56-47e1-9fcd-beaee3c73ad9.png">
+
+   **Caution:** The maximum duration for reserving this demo environment is 3 days (72 hours). Please try and complete this demo script within that time to avoid losing demo access before completion.
 
 8. Once you receive an email notifying you that your environment is ready to use, locate the URL link in this email for the demo environment **MAS v8.6 Demo Environment URL** and the list of corresponding login credentials. This URL and login credentials will be used later in the demo script.
 
-    <img width="1179" alt="3-mas" src="https://user-images.githubusercontent.com/40394344/226029695-74b3aef9-46de-4cbe-9444-d11384152424.png">
+<img width="1179" alt="3-mas" src="https://user-images.githubusercontent.com/40394344/226029695-74b3aef9-46de-4cbe-9444-d11384152424.png">
 
 9. Scroll down in the email to view a list of login credentials for each application in the Maximo Application Suite. Please take note of the username and password to demonstrate the Manage, Health, and Predict applications.
 
-    <img width="1173" alt="4-mas" src="https://user-images.githubusercontent.com/40394344/226029964-7f8553cf-6538-4c9b-99b4-8836a828af83.png">
+<img width="1173" alt="4-mas" src="https://user-images.githubusercontent.com/40394344/226029964-7f8553cf-6538-4c9b-99b4-8836a828af83.png">
 
 ### Instructions to Use Demo Script
 
@@ -39,9 +39,9 @@ The script in this document is arranged as follows:
 2. When instructions are given to enter text, the text is shown with double quotes around it (“this is an example”). This is to help indicate that you need to type all the text within the quotes. However, do not include the double quotes unless explicitly instructed.
 3. Action instructions appear before the corresponding screenshot. For your convenience, **bolded text** is used to highlight the User interface (UI) elements in the action statements. The corresponding screenshot also uses a red bounded box and red arrow to point at the UI element. For example, instructions and their corresponding screenshots will appear like the following.
 
-    1. Under the **Name** column, click on **tanking123000_model**.
+   1. Under the **Name** column, click on **tanking123000_model**.
 
-    <img width="1257" alt="5-mas" src="https://user-images.githubusercontent.com/40394344/226030382-f1797248-c78c-416f-81db-41971cce5f41.png">
+   <img width="1257" alt="5-mas" src="https://user-images.githubusercontent.com/40394344/226030382-f1797248-c78c-416f-81db-41971cce5f41.png">
 
 4. You will also notice that some action steps do not have a corresponding screenshot right away. Instead, a screenshot is shown after multiple related steps wherever it makes sense. In such cases, you will see bolded letters (like **A**, **B**, or **C**) at the end of each instruction in round brackets. At the end of such instructions, these letters correspond to the order of operations to follow and are consistent with the letters shown in the screenshot representing the multiple steps.
 
@@ -70,7 +70,7 @@ A Water Resource Authority (WRA) needs to manage water and wastewater treatment 
 1. The RE views the health scores of all the pumps in this WRA in a single grid view.
 2. The RE find assets with predicted failures before their planned maintenance.
 3. The RE further investigates the underperforming pump that is predicted to fail before its next
-scheduled maintenance.
+   scheduled maintenance.
 4. The RE reviews the asset detail page and the asset timeline
 
 ## Lab Script
@@ -83,19 +83,20 @@ To complete this step, please refer to the email confirming your demo access and
 
 1. Click on this [Maximo Application Suite Demo Environment](https://wwdemo.home.wwdemomas8.gtm-pat.com/) URL link to launch IBM Maximo Application Suite and bring up the login page. Alternatively, you can also locate and click the MAS demo environment URL link from the email you received containing instructions to use the demo environment as shown in the screenshot below.
 
-    <img width="1138" alt="6-mas" src="https://user-images.githubusercontent.com/40394344/226031007-93ea7c43-088a-487b-962a-6fd3d2da7f31.png">
+<img width="1138" alt="6-mas" src="https://user-images.githubusercontent.com/40394344/226031007-93ea7c43-088a-487b-962a-6fd3d2da7f31.png">
 
 2. The **IBM Maximo Application Suite** login page opens in a web browser.
-    1. Enter the Maximo Manage **Username (A)** found in the confirmation email and click **Continue (B)**.
-    2. Enter the Maximo Manage **Password** found in the confirmation email and click **Log in** (image not shown for this step).
 
-    <img width="1188" alt="7-mas" src="https://user-images.githubusercontent.com/40394344/226031260-54e3842b-c777-4f47-8d94-e471483dc873.png">
+   1. Enter the Maximo Manage **Username (A)** found in the confirmation email and click **Continue (B)**.
+   2. Enter the Maximo Manage **Password** found in the confirmation email and click **Log in** (image not shown for this step).
 
-    Once the login credentials are accepted, the Maximo Application **Suite navigator** window opens. Several applications that make up the MAS products are displayed. In this demo, the focus will be on Maximo Monitor, Manage, Health, and Predict.
+   <img width="1188" alt="7-mas" src="https://user-images.githubusercontent.com/40394344/226031260-54e3842b-c777-4f47-8d94-e471483dc873.png">
 
-    <img width="1198" alt="8-mas" src="https://user-images.githubusercontent.com/40394344/226031467-641b1e1c-9382-45a4-8ed8-087b1d8b71ea.png">
+   Once the login credentials are accepted, the Maximo Application **Suite navigator** window opens. Several applications that make up the MAS products are displayed. In this demo, the focus will be on Maximo Monitor, Manage, Health, and Predict.
 
-    If this is your first-time logging into MAS, you may be prompted to view a quick application tour (how-to tutorial). Please dismiss any such tours for the purposes of this demo.
+   <img width="1198" alt="8-mas" src="https://user-images.githubusercontent.com/40394344/226031467-641b1e1c-9382-45a4-8ed8-087b1d8b71ea.png">
+
+   If this is your first-time logging into MAS, you may be prompted to view a quick application tour (how-to tutorial). Please dismiss any such tours for the purposes of this demo.
 
 ## Maximo Monitor and Manage
 
@@ -109,31 +110,31 @@ An Operations Manager for this Water Resource Authority (WRA) needs to view the 
 
 3. From the Maximo **Suite navigator**, click the **Monitor** application tile.
 
-    <img width="1163" alt="9-mas" src="https://user-images.githubusercontent.com/40394344/226031815-63a13f1d-5c1c-4446-b9b3-0321030b3006.png">
+<img width="1163" alt="9-mas" src="https://user-images.githubusercontent.com/40394344/226031815-63a13f1d-5c1c-4446-b9b3-0321030b3006.png">
 
 4. Click the **Monitor** tile on the **Welcome** screen that opens.
 
-    <img width="1158" alt="10-mas" src="https://user-images.githubusercontent.com/40394344/226032038-192b29f7-da2c-4197-88c9-07621d63b591.png">
+<img width="1158" alt="10-mas" src="https://user-images.githubusercontent.com/40394344/226032038-192b29f7-da2c-4197-88c9-07621d63b591.png">
 
 5. On the left sidebar, use the **right arrow (>)** icon to scroll all the Maximo Monitor options **(A)**.
 6. Select the **Devices** tab **(B)** from the menu to view the list of device types in this WRA.
 
-    <img width="1075" alt="11-mas" src="https://user-images.githubusercontent.com/40394344/226032186-c5b3f651-fd6b-462f-809a-e153d4d2623f.png">
+<img width="1075" alt="11-mas" src="https://user-images.githubusercontent.com/40394344/226032186-c5b3f651-fd6b-462f-809a-e153d4d2623f.png">
 
 7. Type **“pump”** in the search bar to filter the results.
 
-    <img width="1097" alt="12-mas" src="https://user-images.githubusercontent.com/40394344/226032340-a70e238a-3fff-4a4d-bcf2-fb2b4cdf525b.png">
+<img width="1097" alt="12-mas" src="https://user-images.githubusercontent.com/40394344/226032340-a70e238a-3fff-4a4d-bcf2-fb2b4cdf525b.png">
 
 8. Click **Pump** from the filtered list to view a Pump summary dashboard that will appear on the right **(A)**.
 9. Click on the left side bar’s **Hide sidebar** icon to collapse it **(B)**.
 
-    <img width="1115" alt="13-mas" src="https://user-images.githubusercontent.com/40394344/226045698-2c272069-72db-4ebb-b095-c06ec9b21a59.png">
+   <img width="1115" alt="13-mas" src="https://user-images.githubusercontent.com/40394344/226045698-2c272069-72db-4ebb-b095-c06ec9b21a59.png">
 
-    Maximo Monitor allows users to categorize/group device types according to their specific business use case. For example, a user can have a separate dashboard according to an asset’s supplier type such as Original Equipment Manufacturer (OEM) and non-OEM. By selecting the Pump group, the operations manager is viewing metrics for all Pump assets in order to manage and view performance of that entire asset set together.
-    
-    The Operations Manager should now navigate through the summary dashboard to see a global map of pump sites. This summary dashboard summarizes important metrics relevant to a pump such as its motor temperature, pressure valves reading, and more. This provides real-time insights on any problems with these assets (These dashboards are fully customizable).
-    
-    The Operations Manager notices an alert on one of the site locations in the map (as seen by the triangle with an exclamation point inside).
+   Maximo Monitor allows users to categorize/group device types according to their specific business use case. For example, a user can have a separate dashboard according to an asset’s supplier type such as Original Equipment Manufacturer (OEM) and non-OEM. By selecting the Pump group, the operations manager is viewing metrics for all Pump assets in order to manage and view performance of that entire asset set together.
+
+   The Operations Manager should now navigate through the summary dashboard to see a global map of pump sites. This summary dashboard summarizes important metrics relevant to a pump such as its motor temperature, pressure valves reading, and more. This provides real-time insights on any problems with these assets (These dashboards are fully customizable).
+
+   The Operations Manager notices an alert on one of the site locations in the map (as seen by the triangle with an exclamation point inside).
 
 10. Click on the **alert icon** displayed on the map to view a summary of the anomaly. Notice that a pump is causing an alert at the **Bedford Site**.
 
@@ -226,9 +227,9 @@ The Remote Operations Manager decides to look at VelocityX real-time sensor data
     <img width="1141" alt="29-mas" src="https://user-images.githubusercontent.com/40394344/226053930-2cc7ba45-e9fc-4408-8080-4e3f7f7311a8.png">
 
     The pump’s motor velocity vector is a combination of velocity in the X, Y, and Z axis. When any axis’ velocity – such as velocity in the X-axis direction (or “velocityX") – experiences exceptional vibration (as shown with the inconsistent y-axis values in this graph), there is something obviously very wrong with the asset.
-    
+
     If a machine is having problems, it will often show signs beforehand. For example, a pump's operating motor speed or temperature may change by a small amount before the pump fails completely. These changes may go unnoticed by a human, but Maximo Monitor can use advanced AI models like “Anomaly detection” to look at critical sensor data. It can then find these subtle changes that are often indicators of an imminent failure. This way, appropriate individuals can be alerted to take preventative action and reduce costly downtime.
-    
+
 31. Click on **IBM Maximo Application Suite** (on the top left) to navigate back to the MAS **Suite Navigator**.
 
     <img width="1150" alt="30-mas" src="https://user-images.githubusercontent.com/40394344/226054254-500a5701-66d1-49cb-a18b-895b6b737554.png">
@@ -320,7 +321,7 @@ The Reliability Engineer continues their investigation to determine which water 
 
     Because this is a live and dynamic demo environment that is also used by other sellers, the percentages shown in this script may vary from what you may see in the demo environment. Therefore, this script attempts to be generic in language.
 
-    Clicking on the information icon (small *i* in a circle) in each of these KPI tiles provides a brief description about the corresponding metric. Specifically:
+    Clicking on the information icon (small _i_ in a circle) in each of these KPI tiles provides a brief description about the corresponding metric. Specifically:
 
     1. **Health Score:** The overall condition of the asset on a user defined scale. This helps to gauge the general maintenance needs of the asset.
     2. **Criticality:** The importance of an asset to its business. This helps to prioritize maintenance and repair activities.
@@ -340,6 +341,7 @@ The Reliability Engineer continues their investigation to determine which water 
     For this asset, and assets in the same group, the Reliability Engineer can see that the health score is a weighted average of open work orders, remaining useful life, and meter health.
 
 ### Step 8: Explore available actions
+
 Once the Reliability Engineer decides on what action to take, it can be immediately turned into action from the top of the page. They can create a service request, create a work order, recalculate a health score, or edit the source asset’s record.
 
 45. **Scroll** back to the top of the page and click on the **Action** blue button in the top right corner. DO NOT CLICK ON ANY OF THESE OPTIONS, AS THIS WILL DETRIMENTALLY AFFECT OTHER DEMO USERS. Rather, it can instead be verbalized that there are available options to address this asset’s poor health.
@@ -349,6 +351,7 @@ Once the Reliability Engineer decides on what action to take, it can be immediat
 46. The Reliability Engineer can finally create and present a detailed report of their findings about current and predicted future state of PMPDEVICE005 (and similar pumps) to the Operations Manager.
 
 ## Maximo Predict
+
 Maximo Predict includes templates to help enterprise Data Scientists to get started with building models to project days to failure, calculate probability of failure, detect anomalies, and generate an asset life curve based on an asset’s deployment and retirement dates. These templates include many algorithms, and the Data Scientists can select the one that best fits their data and needs to drive an optimal outcome.
 
 In addition, the Maximo Application Suite includes Watson Studio and Watson Machine Learning, which can be used for building, training, and maintaining predictive models if a more custom solution is needed.
