@@ -2,7 +2,7 @@
 
 This workshop covers Watson Assistant in breadth and depth, with content appropriate for both brand-new learners and experienced practitioners.
 
-After completing these labs in a workshop session, you'll be able to earn the [Watson Assistant Technical Sales Intermediate badge](https://www.credly.com/org/ibm/badge/watson-assistant-technical-sales-intermediate) based on a quiz about this lab.
+After completing these labs in a workshop session, you'll be able to earn the [Watson Assistant Technical Sales Intermediate badge](https://www.credly.com/org/ibm/badge/watson-assistant-technical-sales-intermediate) based on a quiz about this workshop.
 
 ## Prerequisites
 
