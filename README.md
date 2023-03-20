@@ -1,27 +1,26 @@
-# VAD VAR Workshop
+# VAD VAR Workshops
 
-Content for building experiential sales skills with various IBM products. These tutorials are hands-on labs that give you "show, not tell" experiential selling skills.
+This repo contains content for building experiential sales skills with various IBM products. These tutorials are hands-on labs that give you "show, not tell" experiential selling skills. The content will help you prepare for the [Level 3 Technical Sales badges](https://ibm.seismic.com/Link/Content/DCGX2M377qBM38TMpQ7DB3WVmQg8) for each technology.
 
-The Markdown files below will contain curated Build Lab versions of technical sales hands-on labs that can be cloned and used by partners for their own demos.
+These workshops have been customized from the Technical Sales badge labs in order to fit the time and to add additional "Level 3+" skills to answer common questions not covered by the base labs nor the Technical Sales quiz.
 
 ## Products
 
 ### Instana
 
-- [Instana lab](Instana/README.md)
+- [Instana workshop](Instana/README.md)
 
 ### Watson
 
-- [Watson Assistant lab](Watson/README.md)
+- [Watson Assistant workshop](Watson/README.md)
 
 ### Maximo
 
-- [Maximo Application Suite lab](Maximo/README.md)
-- [Maximo Visual Inspection lab](Maximo/README.md)
+- [Maximo Application Suite (including separate Visual Inspection material) workshop](Maximo/README.md)
 
 ### Sterling
 
-- [Sterling Data Exchange lab](Sterling/READMEE.md)
+- [Sterling Data Exchange workshop](Sterling/README.md)
 
 ## License
 
