@@ -6,6 +6,8 @@ These workshops include hands-on labs that give you "show, not tell" experientia
 
 These workshops have been customized from the Technical Sales badge labs in order to fit the time and to add additional "Level 3+" skills to answer common questions not covered by the base labs nor the Technical Sales quiz.
 
+Keep an eye out for sections marked with a :green_circle: as these topics are very important for the end of workshop quiz.
+
 ## Products
 
 ### Instana
@@ -23,7 +25,3 @@ These workshops have been customized from the Technical Sales badge labs in orde
 ### Sterling
 
 - [Sterling Data Exchange workshop](Sterling/README.md)
-
-## License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
