@@ -9,7 +9,7 @@ After completing these labs in a workshop session, you'll be able to earn the [M
 - IBM id
 - IBM Cloud account
 - Recommended: Level 1 and Level 2 material for the [Maximo by IBM Sales Foundation badge](https://www.credly.com/org/ibm/badge/Maximo-by-ibm-sales-foundation).
-- Currently, the workships require additional content which introduces them in an in-person workshop setting and provides configuration detail that's not found directly in the repo. This content may be added at a later date.
+- Currently, the workshops require additional content which introduces them in an in-person workshop setting and provides configuration detail that's not found directly in the repo. This content may be added at a later date.
 
 ## Labs
 
