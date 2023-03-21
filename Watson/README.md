@@ -9,6 +9,7 @@ After completing these labs in a workshop session, you'll be able to earn the [W
 - IBM id
 - IBM Cloud account
 - Recommended: Level 1 and Level 2 material for the [Watson Assistant Sales Foundation badge](https://www.credly.com/org/ibm/badge/watson-assistant-sales-foundation.1).
+- Currently, the workships require additional content which introduces them in an in-person workshop setting and provides configuration detail that's not found directly in the repo. This content may be added at a later date.
 
 ## Labs
 

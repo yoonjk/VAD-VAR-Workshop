@@ -6,7 +6,7 @@ These workshops include hands-on labs that give you "show, not tell" experientia
 
 These workshops have been customized from the Technical Sales badge labs in order to fit the time and to add additional "Level 3+" skills to answer common questions not covered by the base labs nor the Technical Sales quiz.
 
-Currently, the workships require additional content which introduces them and provides configuration detail that's not found directly in the repo.
+Currently, the workships require additional content which introduces them in an in-person workshop setting and provides configuration detail that's not found directly in the repos. This content may be added at a later date.
 
 :green_circle: Pay special attention to sections marked with green circles. These topics are very important for the L3 quiz. :green_circle:
 
