@@ -78,7 +78,7 @@ Before configuring an OpenShift Route to access the service, spend a moment revi
 
     ![image](_attachments/HSA_BPHelloWorld.png)
 
-    Without getting too technical, it is clear to see that the sequence of this business process has three operations. The first operation generates a xml document with a data element containing "Hello World!". The second operation invokes an XSL Transformation using a stylesheet called "HelloWorld". If you were to look up this XSL stylesheet in the B2Bi dashboard you would see that it takes the data from the xml document and wraps it with some basic html tags. The last operation creates a http response sending the data from the XSL Transformation. In effect, when this business process is invoked it will generate a response like this to the caller:
+    Without getting too technical, it is clear to see that the sequence of this business process has three operations. The first operation generates a xml document with a data element containing `Hello World!`. The second operation invokes an XSL Transformation using a stylesheet called "HelloWorld". If you were to look up this XSL stylesheet in the B2Bi dashboard you would see that it takes the data from the xml document and wraps it with some basic html tags. The last operation creates a http response sending the data from the XSL Transformation. In effect, when this business process is invoked it will generate a response like this to the caller:
 
     ```html
     <HTML><BODY>
@@ -136,7 +136,7 @@ As was done earlier in the lab, if you are working in a multi-tenant environment
 
 1. The expected response is provided back from the business process.
 
-   ![image](_attachments/HSA_BasicAuth.png)
+   ![image](_attachments/HSA_HelloWorld.png)
 
 ## Summary
 
