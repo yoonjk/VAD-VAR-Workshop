@@ -60,7 +60,7 @@ To configure FileZilla for **partner2** both the File Gateway route address and 
 
     ![image](_attachments/FZ_NewSitePort.png)
 
-    > "Don't remember the port number?" The port number can be found in the details of the **sterling-fg-b2bi-asi-backend-svc** service in the OpenShift web console - use **adapters-1's** **Node port**.
+    > "Don't remember the port number?" The port number can be found in the details of the **sterling-fg-b2bi-asi-backend-svc** service (under Networking -> Services) in the OpenShift web console - use **adapters-1's** **Node port**.
 
 1. Enter **bb-partner2** in the **User** field and **password** in the **Password** field and click the **Connect** button.
 
