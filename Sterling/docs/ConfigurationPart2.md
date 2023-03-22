@@ -52,7 +52,7 @@ To make this workshop interesting, we will implement a collection of trading par
 
 ## Add partners to the partner community
 
-Next, add 2 partners to the newly created **bb-sftp_community**.
+Next, add 2 partners to the newly created **bb_sftp_community**.
 
 1. Click the **edit** link for the community that has your initials as the prefix (following the same example for Bilbo): **bb_sftp_community** on the **Communities** pop-up window.
 
