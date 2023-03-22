@@ -26,7 +26,7 @@ To make this workshop interesting, we will implement a collection of trading par
 
     ![image](_attachments/FG_CommunitiesAddLink.png)
 
-1. Append your initials to the community name followed by an underscore. For example, Bilbo Baggins would enter **bb_sftp_community** in the **Community Name** entry field and click **Next**.
+1. Prepend your initials and an underscore to the community name. For example, Bilbo Baggins would enter **bb_sftp_community** in the **Community Name** entry field and click **Next**.
 
     ![image](_attachments/BB_FG_CommunitiesName.png)
 
@@ -134,7 +134,7 @@ You will now add a group to make mapping selecting users into a routing channel 
 
     ![image](_attachments/BB_FG_GroupsAddPartners.png)
 
-1. Select the identities that you added and the group (use Ctrl-Click for multiple selections) and then Click **Execute**
+1. Select the identities that you added and the group (use Cmd-Click for multiple selections) and then Click **Execute**
 
     ![image](_attachments/BB_FG_GroupsSelectPartners.png)
 
