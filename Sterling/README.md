@@ -24,4 +24,6 @@ After completing these labs in a workshop session, you'll be able to earn the [I
 
 - **[Next Steps - take the quiz!](docs/NextSteps.md)**
 
+- **[Bonus - Configuring a secured HTTP endpoint](docs/HTTPAdapter.md)**
+
 As an alternative to the individual labs linked above there is also a [formatted workshop](https://timroster.github.io/SalesEnablement-SterlingDataExchange-L3/) with the same basic content.
