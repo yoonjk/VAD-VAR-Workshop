@@ -21,15 +21,16 @@ The good news is that Maximo Visual Inspection simplifies and streamlines this m
 
 Now it’s time to start the training process of your dirty tank detection model using MVI’s power of AI and ease of use.
 
-
+</br></br>
 **Spanish Helper**
+</br>
 Ahora que tiene un conjunto de datos de imágenes viable, como analista de activos, es hora de entrenar un modelo de detección de objetos en MVI utilizando estas imágenes etiquetadas. El entrenamiento es el proceso de ajustar un modelo a los datos de entrada de modo que pueda usarse para hacer predicciones sobre datos que no ha visto antes en el futuro.
 
 Durante el entrenamiento del modelo de visión por computadora, la información a nivel de píxel del conjunto de datos de la imagen se alimenta al algoritmo de entrenamiento. Una red neuronal convolucional (CNN) ayuda al algoritmo a "mirar" dividiendo las imágenes en píxeles (CNN es un algoritmo popular para la visión por computadora). Esta red neuronal también verifica la precisión de sus predicciones en una serie de iteraciones hasta que sus predicciones sean precisas. En este punto, el modelo CNN está reconociendo o viendo imágenes como una red neuronal biológica humana (de ahí el nombre: Convolutional Network_Neural). esta demostración , el modelo que entrenará es **R-CNN más rápido** (Red convolucional basada en regiones más rápidas). **R-CNN más rápido** es una extensión de los modelos CNN que pertenecen a una familia de modelos de visión por computadora de detección de objetos .
 
 La buena noticia es que Maximo Visual Inspection simplifica y agiliza este proceso de capacitación de modelos a través de la automatización y una solución sin código; esto pone el aprendizaje profundo en manos de un experto en la materia capacitado.
 
-Ahora es el momento de comenzar el proceso de capacitación de su modelo de detección de tanques sucios utilizando el poder de la IA y la facilidad de uso de MVI.
+Ahora es el momento de comenzar el proceso de capacitación de su modelo de detección de tanques sucios utilizando el poder de la IA y la facilidad de uso de MVI.</br>
 **Spanish Helper**
 
 
