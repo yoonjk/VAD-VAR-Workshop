@@ -117,12 +117,12 @@ The Data sets window opens.
 
 ![](_attatchments/mvi.1a40bb6d-e87f-4b74-929f-11f16746fc40.019.jpeg)
 
-3. Enter “Sedimentation Tanks <your unique identifier>” for the **Data set name** field in the **Create data set** window (since you are sharing the Maximo Visual Inspection demo environment with other people a unique identifier is required to avoid name conflicts) **(A).**
+3. Enter “Sedimentation Tanks _**\<YOUR INITIALS\>**_” for the **Data set name** field in the **Create data set** window (since you are sharing the Maximo Visual Inspection demo environment with other people a unique identifier is required to avoid name conflicts) **(A).**
 4. Click **Create (B)**.
 
 ![](_attatchments/mvi.1a40bb6d-e87f-4b74-929f-11f16746fc40.020.jpeg)
 
-**Important:** This demo script does not address dataset names with any unique identifier. Hence to follow along as an example, if you are instructed to click on the **_Sedimentation Tanks_** dataset, you would instead click on **_Sedimentation Tanks <your unique identifier>_** dataset, i.e., the dataset you named along with your unique identifier.
+**Important:** This demo script does not address dataset names with any unique identifier. Hence to follow along as an example, if you are instructed to click on the **_Sedimentation Tanks_** dataset, you would instead click on **_Sedimentation Tanks \<YOUR INITIALS\>_** dataset, i.e., the dataset you named along with your unique identifier.
 
 5. Click on the lower half of the newly created **Sedimentation Tanks** tile (where a light grey image icon is shown).
 
@@ -230,7 +230,7 @@ For this demo, it is fair to assume that a posted field camera is unlikely to ta
 
 ![](_attatchments/mvi.1a40bb6d-e87f-4b74-929f-11f16746fc40.040.jpeg)
 
-4. The **Augment data** window opens**.** Name the new dataset by typing “Augmented Sedimentation Tank <Your unique identifier >” **(A)**
+4. The **Augment data** window opens**.** Name the new dataset by typing “Augmented Sedimentation Tank _**\<YOUR INITIALS\>**_” **(A)**
 5. Click **Create data set** to create your new augmented data set **(B)**
 
 ![](_attatchments/mvi.1a40bb6d-e87f-4b74-929f-11f16746fc40.041.jpeg)
