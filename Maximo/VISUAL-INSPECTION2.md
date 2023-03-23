@@ -175,8 +175,9 @@ Edge computing es una forma de computación que se lleva a cabo en o cerca de la
 3. From the dashboard screen, hover over the left side panel to view the key options available in the Edge server.
 
 **Sample Dialogue:** Several options to configure the MVI Edge environment are available on the left side panel. The **green check mark** at the bottom of the side panel confirms that the Edge server is currently connected to the MVI training server (using an API key), allowing for any models and datasets created in the training server to be imported and deployed in the Edge environment. Using the **Input sources** option from this sidebar, image, video folders, or a RTSP (Real Time Streaming Protocol) camera feed can be selected as an input source for the AI model inspections.
+
 </br>
-**Spanish Helper:**
+Spanish Helper:
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Varias opciones para configurar el entorno MVI Edge están disponibles en el panel lateral izquierdo. La **marca de verificación verde** en la parte inferior del panel lateral confirma que el servidor Edge está actualmente conectado al servidor de capacitación MVI (mediante una clave API), lo que permite importar cualquier modelo y conjunto de datos creado en el servidor de capacitación y implementado en el entorno Edge. Con la opción **Fuentes de entrada** de esta barra lateral, se pueden seleccionar imágenes, carpetas de video o una transmisión de cámara RTSP (Protocolo de transmisión en tiempo real) como fuente de entrada para las inspecciones del modelo de IA.
