@@ -289,7 +289,7 @@ For your model, you have both clean and dirty (tank) labels. For simplicity, let
 
 ![](_attatchments/mvi.3b2f35bd-3c7a-437d-a3d2-793494ca3b8c.048.jpeg)
 
-13. Enter “\<Your Unique ID\> Sed Tank Device Images” in the Data Set Name field and click **Done** to return to the Create New Inspection window screen. This Data Set is where your images captured on your device will be uploaded on the MVI Core instance.
+13. Enter “\<YOUR INITIALS\> Sed Tank Device Images” in the Data Set Name field and click **Done** to return to the Create New Inspection window screen. This Data Set is where your images captured on your device will be uploaded on the MVI Core instance.
 
 ![](_attatchments/mvi.3b2f35bd-3c7a-437d-a3d2-793494ca3b8c.049.jpeg)
 
