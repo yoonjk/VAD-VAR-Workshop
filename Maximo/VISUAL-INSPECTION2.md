@@ -32,6 +32,7 @@ Durante el entrenamiento del modelo de visión por computadora, la información 
 La buena noticia es que Maximo Visual Inspection simplifica y agiliza este proceso de capacitación de modelos a través de la automatización y una solución sin código; esto pone el aprendizaje profundo en manos de un experto en la materia capacitado.
 
 Ahora es el momento de comenzar el proceso de capacitación de su modelo de detección de tanques sucios utilizando el poder de la IA y la facilidad de uso de MVI.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -67,6 +68,7 @@ Apart from the chosen options, Maximo Visual Inspection (MVI) includes several m
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Debido a la facilidad de uso de MVI, los expertos de dominio a menudo progresan muy rápidamente para convertirse en usuarios avanzados. A medida que se encuentran con nuevos niveles de comodidad y control, también pueden elegir explotar configuraciones avanzadas para ajustar aún más el modelo. Una vez que se enciende el interruptor **Configuración avanzada**, la sección **hiperparámetros del modelo** está disponible en la parte inferior de la pantalla. Los hiperparámetros se utilizan para optimizar el rendimiento del modelo; y cuando se trata de mejorar la precisión del modelo, estos parámetros son la opción preferida para los científicos de datos y los expertos en modelos. Se puede ver una breve descripción de cada uno de los hiperparámetros haciendo clic en el ícono **info** (la "**i**" en un círculo) al final de cada hiperparámetro correspondiente. Por ahora, mantenga los hiperparámetros en sus valores predeterminados.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -107,6 +109,7 @@ Using a dataset that was not part of the model-building phase is a standard proc
 Una vez que se completa el entrenamiento del modelo (en este caso, está utilizando un modelo preconstruido), el modelo debe probarse antes de que esté disponible para el público en general. En la fase de validación, pasará imágenes del tanque al modelo que no formaban parte del conjunto de datos de entrenamiento (llamadas imágenes de validación o de prueba) y permitirá que el modelo detecte automáticamente el estado limpio o sucio de las imágenes del tanque dadas. De esta manera, está simulando el escenario de una nueva imagen de inspección del tanque enviada al modelo por las cámaras de campo y sometiendo al modelo a imágenes del tanque que nunca antes había visto.
 
 El uso de un conjunto de datos que no formó parte de la fase de creación del modelo es un proceso estándar para comprobar el rendimiento del modelo (precisión). Esto ayuda a asegurar que los patrones detectados durante el entrenamiento del modelo sean generalizables (también existen en las imágenes nunca antes vistas) y se pueden usar en el mundo real para predecir nuevas imágenes "no vistas".
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -152,6 +155,7 @@ Edge computing is a form of computing that takes place at or near the physical l
 Ahora que ha entrenado y validado el modelo de IA, es hora de usarlo para inspecciones visuales automatizadas en IBM Maximo Visual Inspection (MVI) Edge. MVI Edge es una aplicación basada en la web que se puede utilizar para realizar inspecciones basadas en IA mediante una potente computación perimetral.
 
 Edge computing es una forma de computación que se lleva a cabo en o cerca de la ubicación física del usuario o de la fuente de datos. Al ubicar los servicios informáticos más cerca de estas ubicaciones, los usuarios se benefician de servicios más rápidos y confiables al eliminar los problemas de latencia y disminuir el uso del ancho de banda. Por ejemplo, es ideal para usar en implementaciones de cámaras fijas donde los datos están en formatos de video grandes como este caso de uso de demostración de tanques de sedimentación.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -176,6 +180,7 @@ Edge computing es una forma de computación que se lleva a cabo en o cerca de la
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Varias opciones para configurar el entorno MVI Edge están disponibles en el panel lateral izquierdo. La **marca de verificación verde** en la parte inferior del panel lateral confirma que el servidor Edge está actualmente conectado al servidor de capacitación MVI (mediante una clave API), lo que permite importar cualquier modelo y conjunto de datos creado en el servidor de capacitación y implementado en el entorno Edge. Con la opción **Fuentes de entrada** de esta barra lateral, se pueden seleccionar imágenes, carpetas de video o una transmisión de cámara RTSP (Protocolo de transmisión en tiempo real) como fuente de entrada para las inspecciones del modelo de IA.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -200,6 +205,7 @@ On the configuration tab, show that any datasets, models, and projects made in t
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Con Edge, puede recopilar o inspeccionar imágenes seleccionando la opción adecuada en la sección **Modo de inspección** en la sección Estado de inspección. En el modo **Recopilación**, cualquier imagen tomada como parte de la inspección simplemente se recopila para entrenar un modelo de IA en una etapa posterior. En el modo **Inspección**, estas imágenes son inspeccionadas por un modelo de IA previamente entrenado para realizar inferencias (detectar los elementos de la imagen usando visión artificial). Debido a que desea inspeccionar las imágenes del tanque, asegúrese de que este modo esté configurado en la opción **Inspección**.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -229,6 +235,7 @@ Using MQTT protocol, the Edge server integrates with other applications in the M
 En las opciones de **Tipo de alerta**, puede habilitar Maximo Visual Inspection Edge para enviar mensajes de alerta salientes a destinatarios externos mediante la configuración de conexiones a un intermediario MQTT y el servicio de mensajería Twilio.
 
 Usando el protocolo MQTT, el servidor Edge se integra con otras aplicaciones en MAS Suite para mostrar alertas de inspección y permitir la creación de solicitudes de órdenes de trabajo, como vio anteriormente en esta demostración con MAS Monitor (primera parte de esta demostración). Además de MQTT, al usar Twilio, los resultados de la inspección se pueden enviar inmediatamente como SMS a la persona interesada simplemente proporcionando su número de contacto.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -244,6 +251,7 @@ Usando el protocolo MQTT, el servidor Edge se integra con otras aplicaciones en 
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Una vez que se completa la configuración de la regla,\*\* ahora está realizando un procesamiento por lotes en varias imágenes de tanques en un estado limpio y sucio. Después de ejecutar las inspecciones, el modelo de IA realizará inferencias en cada imagen y, posteriormente, activará los resultados de la inspección como Pasa o Falla, según la condición del tanque. Las inspecciones se pueden iniciar configurando activadores de temas MQTT, que realizarán inspecciones al recibir activadores remotos, o configurando intervalos basados ​​en el tiempo. La configuración del intervalo de inspección se puede establecer de acuerdo con los requisitos comerciales; por ejemplo, las inspecciones de tanques se pueden configurar para que se realicen cada 24 horas (en segundos), etc.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -268,6 +276,7 @@ The exclamation points in the triangle indicate that the inspection result has b
 Todos los resultados de la inferencia se muestran en una sola pantalla junto con metadatos importantes. Si estaba llegando una transmisión en vivo, verá la inspección más reciente en la imagen superior izquierda. Para mayor comodidad, los íconos en las imágenes sirven como una forma rápida de ver los resultados de la inspección. Hay una marca de verificación verde para un tanque limpio y una **X roja** para un tanque sucio. También puede haber un signo de interrogación amarillo si el modelo no está seguro del resultado. Una alta tasa de resultados no concluyentes podría indicar que el rendimiento del modelo es deficiente, que la configuración de la regla es incorrecta o que la calidad de las imágenes de la cámara está comprometida.
 
 Los signos de exclamación en el triángulo indican que el resultado de la inspección se envió como notificaciones de alerta a Maximo Monitor a través de **MQTT o SMS a través de Twilio**, según las opciones que haya seleccionado en la fase de configuración de Reglas. Al hacer clic en cada una de estas imágenes, se pueden mostrar más detalles sobre la inspección, como aquí puede ver que la inspección del tanque más reciente falló debido a las malas condiciones del tanque y se envió una alerta de inmediato sobre el resultado de la inspección. La pronta detección de la mala salud del tanque ayuda a la Autoridad de Recursos Hídricos a evitar problemas que a menudo surgen cuando un problema no se detecta o se detecta demasiado tarde.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -304,6 +313,7 @@ inspecciones a escala.
 Al igual que el resto de las aplicaciones en la solución MVI, MVI Mobile ofrece agilidad con la facilidad de apuntar y hacer clic, pero a través del espacio de una aplicación móvil, al tiempo que proporciona una poderosa plataforma de gestión de datos y puntos de inspección en tiempo real impulsada por IA. En cuestión de horas, los clientes pueden entrenar modelos complejos de visión por computadora en la plataforma principal de MVI e implementar el modelo entrenado en el dispositivo MVI Mobile para realizar inferencias.
 
 La aplicación móvil se puede configurar en modo portátil o en modo de posición fija. Por ejemplo, considere una cámara fija que pueda tomar fotografías de soldaduras en una línea de fabricación y realizar una inspección automatizada en el lugar. Ser capaz de determinar en este punto que una soldadura en particular es mala tiene muchos beneficios. No solo está evitando que esta pieza llegue a manos de un cliente (ya sea como la pieza misma o como un componente de un artículo más grande), lo que podría tener consecuencias desastrosas, según el artículo, sino que esto podría ser un síntoma. de un problema con el equipo de soldadura, e identificar y solucionar el problema a tiempo significa menos producto desperdiciado. De manera similar, con el modo portátil, un inspector de calidad puede llevar fácilmente el dispositivo móvil a un sitio de inspección y aprovechar el poder de un poderoso modelo de IA para detectar cualquier anomalía simplemente haciendo clic en una imagen de la pieza inspeccionada. El resultado es una mejora espectacular en la inspección de calidad de la producción.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -379,6 +389,7 @@ For your model, you have both clean and dirty (tank) labels. For simplicity, let
 Asociado con cada etiqueta hay un valor de umbral y una condición de **Fallo cuando está por debajo del umbral**. La inspección se marcará como _Falla_ si la confianza devuelta para una etiqueta está por encima de su umbral especificado o por debajo del umbral si la opción Falla cuando está por debajo del umbral está activada. También hay una opción **Sin acción** que permite a los usuarios ignorar el resultado cuando se detecta el objeto.
 
 Para su modelo, tiene etiquetas limpias y sucias (tanque). Para simplificar, centrémonos en los tanques sucios, como tal, solo considerará una inspección como un fracaso si encuentra que la condición del tanque está sucia. Desea tener mucho cuidado, por lo que establecerá el umbral para que el nivel de confianza del tanque sucio esté por encima del 50 %. Por otro lado, no se requieren más acciones para los tanques de sedimentación limpios. Por lo tanto, deshabilitará efectivamente la regla de tanque limpio como se muestra en los próximos pasos.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -438,6 +449,7 @@ If you ever want to delete an inspection that you have created, simply click **E
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Aunque todavía puede seguir adelante ahora y realizar inspecciones. Sin embargo, al igual que MVI Edge, MVI Mobile ofrece una fácil integración con la [aplicación Twilio] (#_page0_x57.00_y68.00) para que se puedan enviar alertas por SMS sobre los resultados de la inspección a la persona interesada. Esto sería increíblemente beneficioso para nosotros, ya que el supervisor de campo de la planta de recursos hídricos suele estar ausente en las rondas de inspección. Con esta función, pueden recibir alertas por SMS de inmediato si el estado del tanque se está deteriorando sin la necesidad de monitorear constantemente los resultados de la inspección permaneciendo frente a la pantalla de la computadora.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -486,6 +498,7 @@ The photo will remain on the display on your mobile device, so please press the 
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Dependiendo de la precisión del modelo, ha identificado tanques limpios y sucios en la foto. Dado que está tomando una imagen de una imagen, es posible que el modelo tenga dificultades para identificar con precisión los tanques o la salud del tanque en la imagen. En un entorno real, esto podría resolverse tomando una imagen del objeto real (y no una imagen de una imagen) o con más datos y entrenamiento para una mayor precisión del modelo. Tenga en cuenta que, además de los cuadros delimitadores superpuestos a la propia foto, la parte inferior de la pantalla muestra el nivel de confianza asociado con cada objeto inferido.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
@@ -539,6 +552,7 @@ You can see pass and fail rate for the inspections that were performed.
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Esto concluye la demostración. Observó cómo el modelo MVI AI envía alertas de inspección a Maximo Monitor. También realizó los pasos para crear un modelo de visión por computadora y usó ese modelo para configurar inspecciones en MVI Edge y en MVI Mobile. Por último, puede pensar en esta solución integral donde un modelo de AI Computer Vision envía alertas críticas más allá del caso de uso de tanques de sedimentación y aplicarlo en cualquier área de misión crítica donde es esencial detectar visualmente objetos de interés repetidamente a un ritmo rápido y escala. Una pequeña variedad de ejemplos incluye líneas de productos de ritmo rápido, líneas de transmisión, control de calidad, etc.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 </br>
 
