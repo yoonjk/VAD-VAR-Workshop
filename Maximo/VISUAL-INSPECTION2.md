@@ -446,8 +446,9 @@ If you ever want to delete an inspection that you have created, simply click **E
 ### Step 3: (Optional) Integrating MVI Mobile with Twilio Account 
 
 **Sample Dialogue:** Although you can still go ahead now and perform inspections. However, like MVI Edge, MVI Mobile offers easy integration with the[ Twilio application ](#_page0_x57.00_y68.00)so that SMS alerts about the inspection results can be sent to the concerned person. This would be incredibly beneficial for us since the field supervisor for the Water Resource Plant is usually away on inspection rounds. Using this feature, they can immediately receive SMS alerts if the tank health is deteriorating without the need to constantly monitor inspection results by staying in front of the computer screen.
+
 </br>
-**Spanish Helper:**
+Spanish Helper:
 -------------------------------------------------------------------------------------------------------------------------------------
 </br>
 Aunque todavía puede seguir adelante ahora y realizar inspecciones. Sin embargo, al igual que MVI Edge, MVI Mobile ofrece una fácil integración con la [aplicación Twilio] (#_page0_x57.00_y68.00) para que se puedan enviar alertas por SMS sobre los resultados de la inspección a la persona interesada. Esto sería increíblemente beneficioso para nosotros, ya que el supervisor de campo de la planta de recursos hídricos suele estar ausente en las rondas de inspección. Con esta función, pueden recibir alertas por SMS de inmediato si el estado del tanque se está deteriorando sin la necesidad de monitorear constantemente los resultados de la inspección permaneciendo frente a la pantalla de la computadora.
