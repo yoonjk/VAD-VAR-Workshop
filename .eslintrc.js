@@ -38,6 +38,13 @@ module.exports = {
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple']
       }
+    ],
+    'react/self-closing-comp': [
+      'error',
+      {
+        component: true,
+        html: true
+      }
     ]
   },
   overrides: [
