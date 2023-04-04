@@ -51,6 +51,8 @@ const TableOfContents = (props: TableOfContentsProps) => {
     });
   }, [currSection]);
 
+  if (flatTOC.length < 1) return null;
+
   return (
     <nav className={styles.toc}>
       <h6 className={styles.tocHeader}>
