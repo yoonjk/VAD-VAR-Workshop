@@ -123,7 +123,7 @@ def get_prompt(service_review, task_type, sentiment):
 def main():
 
     # Specify model parameters
-    model_type = ModelTypes.MPT_7B_INSTRUCT2
+    model_type = ModelTypes.MT0_XXL 
     max_tokens = 150
     min_tokens = 100
     decoding = DecodingMethods.SAMPLE
